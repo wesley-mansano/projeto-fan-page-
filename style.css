@@ -24,6 +24,10 @@ body{
 .navbar-geral li{
     margin-right: 4em;
 }
+.navbar-geral a {
+    text-decoration: none;
+    color: mintcream;
+}
 .navbar-geral input{
     border-radius: 1rem;
     width: 15rem;
@@ -36,8 +40,13 @@ body{
 }
 .casa-automatica{
     display: flex;
+    align-items: center;
     margin-top: 10rem;
     flex-wrap: wrap;
+}
+.cards a {
+    text-decoration: none;
+    color: black;
 }
 .cards{
     background-color: honeydew;
@@ -46,6 +55,8 @@ body{
     border-radius: 1rem;
     margin-left: 2.6rem;
     margin-bottom: 3rem;
+    font-family: Mulish, sans-serif;
+    
 }
 
 .cards img{
@@ -54,5 +65,6 @@ body{
 }
 .cards h1{
     margin-top: 1px;
-    border-top: 1px solid black;
+   
 }
+
