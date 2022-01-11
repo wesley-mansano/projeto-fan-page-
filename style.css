@@ -48,6 +48,13 @@ body{
     text-decoration: none;
     color: black;
 }
+.cards a :hover{
+    color:blue;
+
+}
+.cards h1 {
+    margin-left: 10px;
+}
 .cards{
     background-color: honeydew;
     width: 17rem;
