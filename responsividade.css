@@ -1,3 +1,4 @@
+@media screen and (max-width:800px){
 body{
     background-image: url(imagens/redstone-background.jpg);
     min-width:320px;
@@ -109,4 +110,5 @@ h1{
 .cards h1{
     margin-top: 1px;
    
+}
 }
