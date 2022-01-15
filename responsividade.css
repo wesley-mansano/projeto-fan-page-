@@ -1,0 +1,55 @@
+/*celulares*/
+@media screen and (max-width:420px) {
+    .navbar-geral{
+        display: none;
+    }
+   
+    .navbar-mobile{
+        display:flex;
+        position: fixed;
+        top: 0;
+        padding-right:100%;
+        
+        background-image: linear-gradient( rgb(59, 59, 59), rgb(41, 41, 41));
+        font-family: Mulish, sans-serif;
+    }
+    .navbar-mobile img{
+        display:flex;
+        width: 3em;
+        margin-right: 2em;
+        margin-left: 1em;
+    }
+    .navbar-mobile ul{
+        display:flex;
+        flex-wrap: wrap;
+        
+    }
+    .navbar-mobile li{
+        margin-right: 4em;
+    }
+    .navbar-mobile a {
+        text-decoration: none;
+        color: mintcream;
+    }
+    .navbar-mobile{
+        display: flex;
+        width: 60%;
+        background-image: linear-gradient( rgb(59, 59, 59), rgb(41, 41, 41));
+        flex-direction: column;
+
+    }
+    .cards{
+        background-color: honeydew;
+        width: 20rem;
+        height: 16rem;
+        border-radius: 1rem;
+        margin-left: auto;
+        margin-right:auto;
+        margin-bottom: 3rem;
+        font-family: Mulish, sans-serif;
+        
+    }
+    .ocultar{
+        display:none;
+    }
+}
